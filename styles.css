@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 20px;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.bg-primary {
+    background-color: #007bff !important;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+footer {
+    width: 100%;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h5 {
+    color: #007bff;
+}
+
+.animate__animated {
+    visibility: visible !important;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
