@@ -1,150 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Devi Sri Ranga Prasad | Aspiring Software Developer</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Devi Sri Ranga Prasad - Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <header class="bg-primary text-white text-center p-4">
-        <h1 class="display-4 animate__animated animate__fadeInDown">Devi Sri Ranga Prasad</h1>
-        <p class="lead animate__animated animate__fadeInUp">Aspiring Software Developer</p>
-    </header>
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
-            <a class="navbar-brand" href="#">Portfolio</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#">DSP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#summary">Summary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#achievements">Achievements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <main>
-        <section id="about" class="container py-5">
-            <h2 class="text-center animate__animated animate__fadeInUp">About Me</h2>
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Devi Sri Ranga Prasad</h1>
+            <p class="lead">Aspiring Software Developer</p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <section id="summary" class="mb-5">
+            <div class="text-center">
+                <h2>Summary</h2>
+                <p>Proficient in programming languages including Core Java, Python, C++, C, and R. Experienced in web development utilizing HTML, CSS, and JavaScript. Skilled in utilizing Java Spring Boot framework for application development. Proficient in database management with MySQL and MongoDB. Experienced in data analysis using Excel and Tableau. Known for a relentless problem-solving approach and a passion for continuous learning across various technological domains.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="mb-5">
+            <h2 class="text-center">Skills</h2>
             <div class="row">
-                <div class="col-md-2 text-center animate__animated animate__fadeInLeft">
-                    <img src="templates\_aca5dbb4-54f3-406e-ab4a-cfe1868f367a.jpeg" alt="Profile Picture" class="rounded-circle img-fluid">
+                <div class="col-md-4 text-center">
+                    <i class="fas fa-code fa-3x mb-3"></i>
+                    <h5>Programming Languages</h5>
+                    <p>Core Java, Python, C++, C, R, Kotlin</p>
                 </div>
-                <div class="col-md-10 animate__animated animate__fadeInRight">
-                    <p>Proficient in programming languages including Core Java, Python, C++, C, and R. Experienced in web development utilizing HTML, CSS, and JavaScript. Skilled in utilizing Java Spring Boot framework for application development. Proficient in database management with MySQL and MongoDB. Experienced in data analysis using Excel and Tableau. Known for a relentless problem-solving approach and a passion for continuous learning across various technological domains.</p>
+                <div class="col-md-4 text-center">
+                    <i class="fas fa-laptop-code fa-3x mb-3"></i>
+                    <h5>Web Development</h5>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="fas fa-database fa-3x mb-3"></i>
+                    <h5>Databases</h5>
+                    <p>MySQL, MongoDB</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4 text-center">
+                    <i class="fas fa-project-diagram fa-3x mb-3"></i>
+                    <h5>Technologies</h5>
+                    <p>Java Spring Boot, Apache Kafka</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="fas fa-chart-line fa-3x mb-3"></i>
+                    <h5>Data Analysis</h5>
+                    <p>Excel, Tableau</p>
                 </div>
             </div>
         </section>
 
-        <section id="skills" class="bg-light py-5">
-            <div class="container">
-                <h2 class="text-center animate__animated animate__fadeInUp">Technical Skills</h2>
-                <div class="row">
-                    <div class="col-md-6 animate__animated animate__fadeInLeft">
-                        <h5><i class="fas fa-code"></i> Programming Languages:</h5>
-                        <p>Core Java, Python, C++, C, R, Kotlin</p>
+        <section id="projects" class="mb-5">
+            <h2 class="text-center">Projects</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Anime List Backend API</h5>
+                            <p class="card-text">Users can keep track of the animes they have watched. Security is robust with OAuth 2.0 and JWT token verification. The Animes Collection has 14k+ records. Developed with Spring Boot Security 6, APIs, and MongoDB.</p>
+                            <a href="https://naa-anime-list-backend-api.onrender.com/login" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
                     </div>
-                    <div class="col-md-6 animate__animated animate__fadeInRight">
-                        <h5><i class="fas fa-laptop-code"></i> Web Development:</h5>
-                        <p>HTML, CSS, JavaScript</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Rock Paper Scissors Game</h5>
+                            <p class="card-text">AI-based project where the player competes against the computer. Utilizes OpenCV and MediaPipe for hand gesture recognition. Developed proficiency in Python and implemented computer vision and machine learning techniques.</p>
+                        </div>
                     </div>
-                    <div class="col-md-6 animate__animated animate__fadeInLeft">
-                        <h5><i class="fas fa-cogs"></i> Technologies:</h5>
-                        <p>Java Spring Boot, Apache Kafka</p>
-                    </div>
-                    <div class="col-md-6 animate__animated animate__fadeInRight">
-                        <h5><i class="fas fa-database"></i> Databases:</h5>
-                        <p>MySQL, MongoDB</p>
-                    </div>
-                    <div class="col-md-6 animate__animated animate__fadeInLeft">
-                        <h5><i class="fas fa-chart-line"></i> Data Analysis:</h5>
-                        <p>Excel, Tableau</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Analysis on Airbnb Dataset</h5>
+                            <p class="card-text">Conducted a comprehensive analysis of Airbnb pricing patterns to understand market dynamics. Developed a predictive model capable of estimating Airbnb rental prices. Enhanced data analytics skills, particularly in R programming, and gained insights into the factors influencing accommodation pricing.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="projects" class="container py-5">
-            <h2 class="text-center animate__animated animate__fadeInUp">Projects</h2>
-            <div class="row">
-                <div class="col-md-4 animate__animated animate__zoomIn">
-                    <h5><i class="fas fa-project-diagram"></i> Anime List Backend Api</h5>
-                    <p>Users can keep track of the animes they have watched. Security includes OAuth 2.0 and JWT token verification. Collection has 14k+ records. Developed using Spring Boot Security 6 and MongoDB. <a href="https://naa-anime-list-backend
-                        -api.onrender.com/login" target="_blank">API Link</a></p>
-                    </div>
-                    <div class="col-md-4 animate__animated animate__zoomIn">
-                        <h5><i class="fas fa-gamepad"></i> Rock Paper Scissor Game</h5>
-                        <p>AI-based project where the player competes against the computer. Uses OpenCV and MediaPipe for hand gesture recognition. Developed using Python, implementing computer vision and machine learning techniques.</p>
-                    </div>
-                    <div class="col-md-4 animate__animated animate__zoomIn">
-                        <h5><i class="fas fa-chart-pie"></i> Analysis on Airbnb Dataset</h5>
-                        <p>Comprehensive analysis of Airbnb pricing patterns to understand market dynamics. Developed a predictive model for estimating Airbnb rental prices. Enhanced data analytics skills, particularly in R programming. Gained insights into factors influencing accommodation pricing.</p>
-                    </div>
-                </div>
-            </section>
-    
-            <section id="education" class="bg-light py-5">
-                <div class="container">
-                    <h2 class="text-center animate__animated animate__fadeInUp">Education</h2>
-                    <ul class="list-unstyled text-center animate__animated animate__fadeInUp">
-                        <li><i class="fas fa-graduation-cap"></i> B.Tech. in Computer Science (2021-2025) - Lovely Professional University, Phagwara, IN - 76%</li>
-                        <li><i class="fas fa-graduation-cap"></i> Intermediate (2019-2021) - Andhra Pradesh, IN - 96.5%</li>
-                        <li><i class="fas fa-graduation-cap"></i> 10th Class - Andhra Pradesh, IN - 95%</li>
-                    </ul>
-                </div>
-            </section>
-    
-            <section id="certificates" class="container py-5">
-                <h2 class="text-center animate__animated animate__fadeInUp">Certificates</h2>
-                <ul class="list-unstyled text-center animate__animated animate__fadeInUp">
-                    <li><i class="fas fa-certificate"></i> R Programming - Board Infinity (Jul 2023)</li>
-                    <li><i class="fas fa-certificate"></i> Java - Hacker Rank (Dec 2022)</li>
-                    <li><i class="fas fa-certificate"></i> Python - Coursera (Nov 2022)</li>
-                    <li><i class="fas fa-certificate"></i> C, C++ - Coursera (Feb 2022)</li>
-                </ul>
-            </section>
-    
-            <section id="achievements" class="bg-light py-5">
-                <div class="container">
-                    <h2 class="text-center animate__animated animate__fadeInUp">Achievements</h2>
-                    <ul class="list-unstyled text-center animate__animated animate__fadeInUp">
-                        <!-- Add your achievements here -->
-                    </ul>
-                </div>
-            </section>
-    
-            <section id="contact" class="container py-5">
-                <h2 class="text-center animate__animated animate__fadeInUp">Contact</h2>
-                <p class="text-center animate__animated animate__fadeInUp"><i class="fas fa-envelope"></i> Email: your-email@example.com</p>
-                <p class="text-center animate__animated animate__fadeInUp"><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
-                <p class="text-center animate__animated animate__fadeInUp"><i class="fab fa-github"></i> GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
-            </section>
-        </main>
-    
-        <footer class="bg-primary text-white text-center py-3">
-            <p>&copy; 2024 Devi Sri Ranga Prasad</p>
-        </footer>
-    
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    </body>
-    
-    </html>
-    
+        <section id="achievements" class="mb-5">
+            <h2 class="text-center">Achievements</h2>
+            <!-- Add content here -->
+        </section>
+
+        <section id="education" class="mb-5">
+            <h2 class="text-center">Education</h2>
+            <ul class="list-unstyled text-center">
+                <li class="mb-3">
+                    <h4>B.Tech. in Computer Science</h4>
+                    <p>Lovely Professional University, Phagwara, IN (2021-2025) - 76%</p>
+                </li>
+                <li class="mb-3">
+                    <h4>Intermediate</h4>
+                    <p>Andhra Pradesh, IN (2019-2021) - 96.5%</p>
+                </li>
+                <li class="mb-3">
+                    <h4>10th Class</h4>
+                    <p>Andhra Pradesh, IN - 95%</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Devi Sri Ranga Prasad. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

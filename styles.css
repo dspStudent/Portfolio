@@ -1,51 +1,71 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    color: #333;
+/* Custom CSS */
+
+/* Navbar */
+.navbar-brand {
+  font-weight: bold;
 }
 
-h2 {
-    margin-bottom: 30px;
+.nav-link {
+  color: #333;
 }
 
-.navbar-nav .nav-link {
-    margin-right: 20px;
+/* Summary */
+.container h2 {
+  color: #007bff;
 }
 
-.section {
-    padding: 60px 0;
+/* Scroll box */
+.scroll-box {
+  max-height: 200px;
+  overflow-y: scroll;
 }
 
-.bg-primary {
-    background-color: #007bff !important;
+.scroll-box ul {
+  list-style-type: none;
+  padding-left: 20px;
 }
 
-.bg-light {
-    background-color: #f8f9fa !important;
+.scroll-box li {
+  margin-bottom: 5px;
 }
 
-footer {
-    width: 100%;
+/* Hover effect */
+.scroll-box li:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
 }
 
-a {
-    color: #007bff;
-    text-decoration: none;
+/* Projects */
+.project {
+  margin-bottom: 20px;
 }
 
-a:hover {
-    text-decoration: underline;
+.project h4 {
+  color: #007bff;
 }
 
-h5 {
-    color: #007bff;
+/* Achievements */
+.achievements ul {
+  list-style-type: none;
+  padding-left: 0;
 }
 
-.animate__animated {
-    visibility: visible !important;
+/* Education */
+.timeline {
+  position: relative;
+  padding-left: 40px;
 }
 
-.container img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
+.timeline-item {
+  margin-bottom: 20px;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 2px;
+  height: 100%;
+  background-color: #007bff;
 }
